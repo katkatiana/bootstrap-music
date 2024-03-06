@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,400;1,600&family=Roboto&family=Roboto+Mono:wght@300;400;600&display=swap');
+
+body, .navbar , .row, tr, td, th, .card, .list-group-item, button {
+    background-color: rgb(8, 3, 20)!important;
+}
+
+.card-title, .card-text, h1, p small, a,
+tr, td, th, p, .list-group-item {
+    color: white!important;
+}
+
+.card-body{
+    padding-block: 0!important;
+}
+
+p {
+    margin-block-end: 10px;
+}
+
+.carousel-inner {
+    width: 50%!important;
+}
+
+.carousel-caption {
+    bottom: 15%;
+}
+
+.carousel-action {
+    opacity: 0.5;
+}
+
+.last-card {
+    justify-content: center;
+    align-content: center;
+   
+}
+
+/* .list-group .list-group-numbered {
+    border: none!important;
+} */
